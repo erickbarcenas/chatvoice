@@ -1,0 +1,87 @@
+.cover {
+  background: url('https://cdn.discordapp.com/attachments/732994616202100770/845507582340497458/pexels-cottonbro-6153343.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+
+}
+
+
+
+
+.bg-orange {
+  background-color: #ff6144!important;
+}
+
+.vh-80 {
+  min-height: 84vh;
+}
+
+.sign__container {
+  width: 60%;
+}
+
+@media (min-width: 1200px) {
+  .sign__container {
+    width: 350px;
+  }
+  .subtitle-mb{
+    margin-bottom: 5.5rem!important;
+  }
+}
+.imagen-form {
+  width: 85%;
+  max-width: 400px;
+  height: auto;
+}
+.container {
+  background: #fff;
+  margin-top: 50px;
+  padding: 20px 20px 20px 20px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  width: 945px
+}
+.text-muted {
+  font-size: 13px;
+  font-weight: bold
+}
+
+.form-title {
+  font-weight: bold
+}
+
+.form-group label {
+  font-size: 11px;
+  font-weight: bold;
+  padding-left: 5px;
+  color: #828282
+}
+
+.form-control-text {
+  border: none;
+  border-radius: 20px;
+  background: rgba(165, 147, 69, 0.075);
+  box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.2)
+}
+
+.btn-form {
+  width: 100%;
+  font-size: 12px;
+  margin-top: 10px;
+  background-color: rgba(56, 147, 243, 0.67);
+  text-align: center;
+  border-radius: 5px
+}
+
+.form-control-text:focus {
+  color: #495057;
+  border-color: #fff !important;
+  outline: 0;
+  box-shadow: 0 1px 1px 1px rgba(0, 123, 255, .25) !important
+}
+
+.footer-form{
+  padding-top: 3rem;
+  margin-top: 1rem;
+}
